@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practic project</title>
+  <!-- this is bootstrap link -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- font awesome link -->
+  <script src="https://use.fontawesome.com/ee3a353699.js"></script>
+</head>
+
+<body class="container">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="#"><img src="images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item ">
+              <a class="nav-link active fw-bold fs-6" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold fs-6" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold fs-6" href="#laptop">PRODUCTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled fw-bold fs-6" href="#" tabindex="-1" aria-disabled="true">CONTRACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled fw-bold fs-6" href="#" tabindex="-1" aria-disabled="true">CONTRACT</a>
+            </li>
+          </ul>
+          <a class="navbar-brand me-4 " href="#">
+            <i class="fa fa-bell-o" aria-hidden="true"></i>
+
+          </a>
+          <a class="navbar-brand me-4" href="#">
+            <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+          </a>
+          <a class="navbar-brand me-4" href="#">
+            <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+
+          </a>
+          <a class="navbar-brand" href="#">
+            <img src="images/yousuf.jpg" alt="" width="36" height="36" class="d-inline-block align-text-top">
+            <p class="profile">owner</p>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- this is slider -->
+
+  <section class="container">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <div class="row">
+            <div class="col-sm-12 col-md-7 d-flex justify-content-center align-items-center bg-frimary">
+              <div>
+                <h1>Macbook Pro</h1>
+                <p class="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, debitis.</p>
+                <h3>$4500</h3>
+                <button class="btn btn-warning">Buy now</button>
+              </div>
+            </div>
+            <div class="col-5">
+              <img class="d-block w-100" src="images/banner-products/product-1.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <div class="row">
+            <div class="col-sm-12 col-md-7 d-flex justify-content-center align-items-center bg-frimary">
+              <div>
+                <h1>Amazon Echo
+                </h1>
+                <p class="w-50">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, reiciendis.</p>
+                <h3>$500</h3>
+                <button class="btn btn-warning">Buy now</button>
+              </div>
+            </div>
+            <div class="col-5">
+              <img class="d-block w-100" src="images/banner-products/product-2.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-12 col-md-7 d-flex justify-content-center align-items-center bg-frimary">
+              <div>
+                <h1>Boom boom boom Box
+                </h1>
+                <p class="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, debitis.</p>
+                <h3>$1200</h3>
+                <button class="btn btn-warning">Buy now</button>
+              </div>
+            </div>
+            <div class="col-5">
+              <img class="d-block w-100" src="images/banner-products/product-3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- This is phone card section -->
+  <section>
+    <h1>Smart Phones</h1>
+    <div class="row g-4">
+      <div class="col-sm-12 col-md-4 col-lg-4  ">
+        <div class="card shadow-lg" style="width: 18rem;">
+          <img src="images/phones/phone-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">iphone</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-warning">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 ">
+        <div class="card shadow-lg" style="width: 18rem;">
+          <img src="images/phones/phone-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SAMSUNG</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <h3>$800</h3>
+            <a href="#" class="btn btn-warning">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="card shadow-lg" style="width: 18rem;">
+          <img src="images/phones/phone-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">REALME</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <h3>$1500</h3>
+            <a href="#" class="btn btn-warning">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- laptop section -->
+  <section id="laptop" class="my-5 ">
+    <h1>Laptops</h1>
+    <div class="row g-4">
+      <div class="col-sm-12 col-md-4 col-lg-4 ">
+        <div class="card shadow-lg" style="width: 18rem;">
+          <img src="images/laptops/laptop-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ASUS</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <h3>$1200</h3>
+            <a href="#" class="btn btn-warning">Buy now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 ">
+        <div class="card shadow-lg" style="width: 18rem;">
+          <img src="images/laptops/laptop-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Yoga FeaturingDaimler</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <h3>$800</h3>
+            <a href="#" class="btn btn-warning">Buy now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="card shadow-lg" style="width: 18rem;">
+          <img src="images/laptops/laptop-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dell</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <h3>$1500</h3>
+            <a href="#" class="btn btn-warning">Buy now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- car section -->
+  <section id="car" class="my-5 ">
+    <h1>New Model Car</h1>
+    <div class="row g-4">
+      <div class="col-sm-12 col-md-4 col-lg-4 ">
+        <div class="card shadow-lg" style="width: 18rem;">
+          <img src="images/cars/car-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Toyota</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <h3>$5000</h3>
+            <a href="#" class="btn btn-warning">Buy now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 ">
+        <div class="card shadow-lg" style="width: 18rem;">
+          <img src="images/cars/car-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Daimler</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <h3>$5000</h3>
+            <a href="#" class="btn btn-warning">Buy now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="card shadow-lg" style="width: 18rem;">
+          <img src="images/cars/car-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lamborghini Aventador</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <h3>$10000</h3>
+            <a href="#" class="btn btn-warning">Buy now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p class="text-center">
+      <small>copyright @md.yousuf</small>
+    </p>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
